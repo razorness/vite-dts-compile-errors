@@ -1,0 +1,34 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "upgrade": "taze major -I"
+  },
+  "module": "dist/lib.es.js",
+  "types": "dist/types/main.d.ts",
+  "files": [
+    "dist/**/*",
+    "src/**/*"
+  ],
+  "dependencies": {
+    "vue": "^3.4.30"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.8",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "taze": "^0.13.8",
+    "typescript": "^5.5.2",
+    "vite": "^5.3.1",
+    "vite-plugin-dts": "^3.9.1",
+    "vue-tsc": "^2.0.22"
+  },
+  "peerDependencies": {
+    "vue": "^3.4.30"
+  },
+  "packageManager": "yarn@4.3.1"
+}
