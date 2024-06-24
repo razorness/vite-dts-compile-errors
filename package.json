@@ -15,9 +15,6 @@
     "dist/**/*",
     "src/**/*"
   ],
-  "dependencies": {
-    "vue": "^3.4.30"
-  },
   "devDependencies": {
     "@types/node": "^20.14.8",
     "@vitejs/plugin-vue": "^5.0.5",
@@ -25,6 +22,7 @@
     "typescript": "^5.5.2",
     "vite": "^5.3.1",
     "vite-plugin-dts": "^3.9.1",
+    "vue": "^3.4.30",
     "vue-tsc": "^2.0.22"
   },
   "peerDependencies": {

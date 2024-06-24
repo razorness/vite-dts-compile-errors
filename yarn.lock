@@ -2330,6 +2330,8 @@ __metadata:
     vite-plugin-dts: "npm:^3.9.1"
     vue: "npm:^3.4.30"
     vue-tsc: "npm:^2.0.22"
+  peerDependencies:
+    vue: ^3.4.30
   languageName: unknown
   linkType: soft
 
